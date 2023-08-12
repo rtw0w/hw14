@@ -39,7 +39,7 @@ public class AppOrderValidTest {
 
     @Test
     public void shouldBeSuccessfulForm() {
-        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Сидоров Александр");
+        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Петров-Соловов Александр");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79145577220");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         driver.findElement(By.cssSelector("button.button")).click();
